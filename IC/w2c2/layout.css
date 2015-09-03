@@ -1,0 +1,25 @@
+header {
+    text-align:center;
+    font-family:'Tangerine',sarif;
+}
+
+footer {
+    text-align:center;
+    clear:both;
+}
+
+#group {
+}
+
+#summ {
+    text-align:center;
+    display:inline;
+    float:left;
+    width:25%;
+}
+
+#home {
+    display: inline;
+    float:right;
+    width:75%;
+}
