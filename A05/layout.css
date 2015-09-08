@@ -1,11 +1,21 @@
 header {
-    text-align:center;
-    font-family:'Tangerine',sarif;
+    color:white;
+    background-color:darkgrey;
+    height:25%;
 }
 
 footer {
     text-align:center;
     clear:both;
+    color:white;
+    background-color:lightgrey;
+    height:50px;
+}
+
+nav {
+    height:50px;
+    color:white;
+    background-color:lightgrey;
 }
 
 #group {
@@ -21,5 +31,6 @@ footer {
 #home {
     display: inline;
     float:right;
-    width:75%;
+    border-left:1px solid lightgrey;
+    width:74%;
 }
