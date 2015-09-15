@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W4C1</title>
+</head>
+
+<body>
+<div class="row" style="flex">
+    <div class="col-sm-3" onmousemove="touchMe()">
+        <p>Rub that cursor all over me <br> <span id="demo">:)</span></p>
+    </div>
+
+    <div class="col-sm-6" onmousemove="enter(this)" onmouseout="leave(this)">
+        Woooooooooh!
+    </div>
+    <div class="col-sm-3" onmousemove="invert(this)">
+        <p>Text</p>
+    </div>
+</div>
+
+<script>
+    var z = 0;
+
+    function enter(elem){
+        elem.style.backgroundColor = '#FF0000';
+    }
+
+    function leave(elem){
+        elem.style.backgroundColor = '#FFFFFF';
+    }
+
+    function touchMe() {
+        document.getElementById("demo").innerHTML = z+=1;
+    }
+
+    function invert() {
+        document.getElementById("ex").backgroundColor="red";
+    }
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

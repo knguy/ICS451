@@ -1,0 +1,17 @@
+.col-sm-3 {
+    background-color:lightpink;
+    flex:1;
+    color:white;
+    text-align:center;
+}
+
+.col-sm-6 {
+    flex:1;
+    color:gray;
+    text-align:center;
+}
+
+.col-sm-12 {
+    flex:1
+    background-color:lightgray;
+}
