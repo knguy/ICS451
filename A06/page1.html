@@ -1,0 +1,81 @@
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kevin's Website</title>
+
+</head>
+<body>
+    <div class="page-header">
+        <h1>Kevin's Website</h1>
+    </div>
+
+    <nav role="navigation" class="navbar navbar-default">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="page1.html">Home</a></li>
+                <li><a href="page2.html">Forms</a></li>
+                <li><a href="page3.html">WOW</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row" style="display:flex">
+        <div class="col-sm-3">
+            <br><b>Sidebar</b><br><br>
+            This is my homepage<br>
+            I love it<br>
+            I love you<br>
+            But your parents don't
+        </div>
+        <div class="col-sm-9">
+            <div class="panel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#buttons" aria-controls="tab" role="tab" data-toggle="tab">Tab</a></li>
+                    <li role="presentation"><a href="#forms" aria-controls="forms" role="tab" data-toggle="tab">Forms</a></li>
+                    <li role="presentation"><a href="#pics" aria-controls="pics" role="tab" data-toggle="tab">Pics</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="Tab">
+                        Body of tab :)
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="forms">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1">
+                                <input type="radio">
+                            </span>
+                            Only Choice
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="pics">
+                        Just kidding, no pics
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        Copyright (C) Kevin Nguyen
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>
