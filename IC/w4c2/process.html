@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W4C2</title>
+</head>
+
+<body>
+    <div>
+        <table id="myTable" border="1px solid black">
+        </table>
+    </div>
+
+    <script>
+        function processUser() {
+            var parameters = location.search.substring(1).split("&");
+            var temp;
+            var table = document.getElementById("myTable");
+            var row;
+            var cell1;
+            var cell2;
+            for (i = 0; i < parameters.length; i++) {
+                temp = parameters[i].split("=");
+                row = table.insertRow(i);
+                cell1 = row.insertCell(0);
+                cell2 = row.insertCell(1);
+                cell1.innerHTML = temp[0];
+                cell1.innerHTML = cell1.innerHTML.charAt(0).toUpperCase() + cell1.innerHTML.slice(1);
+                cell1.innerHTML = cell1.innerHTML.bold();
+                cell2.innerHTML = temp[1];
+            }
+        }
+        processUser();
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
