@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W5C1</title>
+</head>
+
+<body>
+<div id = "one" style = "cursor:pointer; background-color:black; color:white">
+    Click me, big boy
+</div>
+<div id = "two" style = "background-color:lightcoral; color:white">
+    I want you to enter me
+</div>
+<script>
+    $("#one").click(function() {
+        $(this).html("You violated me");
+        $(this).css("background-color","red");
+    });
+    $("#two").mouseenter(function() {
+        $(this).html("Yes just like that");
+        $(this).css("background-color","blue");
+    });
+    $("#two").mouseleave(function() {
+        $(this).html("Why'd you stop");
+        $(this).css("background-color","orange");
+    });
+</script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
