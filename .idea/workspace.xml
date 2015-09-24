@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e796037e-3464-4581-8182-3529d3380d5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w5c1/page1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w5c2/page1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w5c2/test.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ics415.iws" />
@@ -27,14 +28,24 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="page1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IC/w5c1/page1.html">
+        <entry file="file://$PROJECT_DIR$/IC/w5c2/page1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7638889">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.5277778">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IC/w5c2/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,6 +105,8 @@
         <option value="$PROJECT_DIR$/A07/demo_form.html" />
         <option value="$PROJECT_DIR$/A07/myScript.js" />
         <option value="$PROJECT_DIR$/IC/w5c1/page1.html" />
+        <option value="$PROJECT_DIR$/IC/w5c2/test.txt" />
+        <option value="$PROJECT_DIR$/IC/w5c2/page1.html" />
       </list>
     </option>
   </component>
@@ -133,8 +146,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,6 +164,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ICS451" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ics415" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ICS451" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="w5c2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,7 +219,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,11 +235,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ICS451\IC\w5c2" />
       <recent name="C:\xampp\htdocs\ICS451\IC\w5c1" />
       <recent name="C:\xampp\htdocs\ICS451\IC\w4c1" />
       <recent name="C:\xampp\htdocs\ICS451\A06" />
       <recent name="C:\xampp\htdocs\ICS451\IC\w3c2" />
-      <recent name="C:\xampp\htdocs\ICS451\IC\w3c1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ICS451\A06" />
@@ -216,10 +247,7 @@
       <recent name="C:\xampp\htdocs\ICS451" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.page1.html (2)">
-    <configuration default="false" name="page1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ics415/ICS451/A06/page1.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.page1.html (3)">
     <configuration default="false" name="page1.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ics415/ICS451/IC/w4c1/page1.html">
       <method />
     </configuration>
@@ -230,6 +258,9 @@
       <method />
     </configuration>
     <configuration default="false" name="page1.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ics415/ICS451/IC/w5c1/page1.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="page1.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ics415/ICS451/IC/w5c2/page1.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -482,19 +513,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.page1.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.form.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.demo_form.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (2)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.form.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.demo_form.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (2)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (2)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.demo_form.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.form.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.page1.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (3)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.demo_form.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.form.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.page1.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -520,12 +551,13 @@
       <workItem from="1442348869399" duration="4304000" />
       <workItem from="1442522201726" duration="3623000" />
       <workItem from="1442946695843" duration="3596000" />
-      <workItem from="1442954095732" duration="2028000" />
+      <workItem from="1442954095732" duration="2689000" />
+      <workItem from="1443126891229" duration="1170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43464000" />
+    <option name="totallyTimeSpent" value="45295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="30" width="683" height="738" extended-state="0" />
@@ -541,7 +573,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.049475264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13943028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -603,20 +635,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/A05/page3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A05/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A05/page1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -916,9 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.653846">
           <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.038462">
           <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,9 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.114583336">
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,16 +962,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54651165">
           <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc;n#getClasses#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IC/w5c1/page1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7638889">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IC/w5c2/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IC/w5c2/page1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5277778">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
